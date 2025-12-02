@@ -1,6 +1,7 @@
 **Forecasting Urban Air Quality Using Time-Series Models**
 
 **Team Members**
+
 Shivam Kumar — kshivam@iisc.ac.in
 
 Sachin R — sachinr@iisc.ac.in
@@ -10,6 +11,7 @@ Prakash S — prakashs1@iisc.ac.in
 Pothukanuri Sai Venkat — saivenkatp@iisc.ac.in
 
 **Problem Statement**
+
 Air pollution poses a major health and environmental challenge in India. Cities such as Delhi frequently suffer from hazardous air quality episodes driven by traffic, industrial emissions, meteorology, biomass burning, and seasonal variations.
 Despite the urgency, citizens and authorities lack an early-warning system capable of forecasting AQI levels in advance. A reliable short-term AQI forecasting tool can support:
 - Public health advisories
@@ -19,6 +21,7 @@ Despite the urgency, citizens and authorities lack an early-warning system capab
 This project aims to address this gap through data-driven forecasting.
 
 **Dataset Description**
+
 The dataset is sourced from the Central Pollution Control Board (CPCB) and made publicly available through:
 - Open Government Data (OGD) Platform India
 - Kaggle (compiled datasets)
@@ -32,6 +35,7 @@ The data is provided in CSV format and contains multi-year (e.g., 2015–2022) h
 The dataset provides a rich basis for time-series forecasting, capturing both long-term trends and seasonal behavior.
 
 **Objective**
+
 To build a robust forecasting model capable of predicting the next 24–72 hours of AQI values for a major Indian city (e.g., Delhi).
 The system should:
 - Capture seasonal variations and autocorrelation
@@ -68,9 +72,11 @@ This project builds a complete AQI forecasting pipeline integrating:
 - Deep learning (LSTM)
 - Machine learning (XGBoost / Gradient Boosting)
 The goal is to provide accurate short-term AQI predictions that can support public health decision-making and environmental management.
+
 Our final system outputs:
 - Next 24–72 hour AQI forecasts
 - Visualization plots for actual vs predicted values
 - Performance metrics for all models
 - Best performing model recommendation
+
 The long-term objective is to extend this into a real-time AQI forecasting dashboard that can be deployed for any major Indian city.
