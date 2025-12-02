@@ -1,12 +1,12 @@
-#Forecasting Urban Air Quality Using Time-Series Models
+**Forecasting Urban Air Quality Using Time-Series Models**
 
-**Team Members **
+**Team Members**
 Shivam Kumar — kshivam@iisc.ac.in
 Sachin R — sachinr@iisc.ac.in
 Prakash S — prakashs1@iisc.ac.in
 Pothukanuri Sai Venkat — saivenkatp@iisc.ac.in
 
-**Problem Statement **
+**Problem Statement**
 Air pollution poses a major health and environmental challenge in India. Cities such as Delhi frequently suffer from hazardous air quality episodes driven by traffic, industrial emissions, meteorology, biomass burning, and seasonal variations.
 Despite the urgency, citizens and authorities lack an early-warning system capable of forecasting AQI levels in advance. A reliable short-term AQI forecasting tool can support:
 - Public health advisories
@@ -15,13 +15,13 @@ Despite the urgency, citizens and authorities lack an early-warning system capab
 - Personal planning for sensitive groups
 This project aims to address this gap through data-driven forecasting.
 
-**Dataset Description **
+**Dataset Description**
 The dataset is sourced from the Central Pollution Control Board (CPCB) and made publicly available through:
 - Open Government Data (OGD) Platform India
 - Kaggle (compiled datasets)
 The data is provided in CSV format and contains multi-year (e.g., 2015–2022) hourly and daily measurements from several monitoring stations of Indian metropolitan cities.
 
-**Included Features **
+**Included Features**
 - Pollutants: PM2.5, PM10, NO₂, SO₂, CO, O₃
 - Meteorological parameters: Temperature, humidity, wind speed, etc.
 - Timestamp: Hourly or daily resolution
@@ -59,6 +59,7 @@ The models are evaluated using standard regression and categorical metrics:
 - AQI Category Accuracy (Correct classification into Good / Moderate / Unhealthy etc.)
 
 **Summary**
+
 This project builds a complete AQI forecasting pipeline integrating:
 - Classical statistical models (SMA, EMA, SARIMA)
 - Deep learning (LSTM)
