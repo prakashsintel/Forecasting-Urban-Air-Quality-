@@ -2,8 +2,11 @@
 
 **Team Members**
 Shivam Kumar — kshivam@iisc.ac.in
+
 Sachin R — sachinr@iisc.ac.in
+
 Prakash S — prakashs1@iisc.ac.in
+
 Pothukanuri Sai Venkat — saivenkatp@iisc.ac.in
 
 **Problem Statement**
